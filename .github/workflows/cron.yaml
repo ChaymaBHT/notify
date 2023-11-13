@@ -1,0 +1,17 @@
+name: Nightly Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "* * * * *"
+
+
+jobs:
+  invalidation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure AWS credentials
+        run: |
+          echo test
+
+

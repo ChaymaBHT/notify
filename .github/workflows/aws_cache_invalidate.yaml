@@ -1,0 +1,13 @@
+name: AWS Cache Invalidation for Browser CMS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  invalidation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure AWS credentials
+        run: |
+          echo test
+
