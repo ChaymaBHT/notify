@@ -1,8 +1,5 @@
 name: Email Notification Workflow
-on:
-  workflow_run:
-    types:
-      - in_progress
+on: [workflow_run]
 
 jobs:
   sendMail:
