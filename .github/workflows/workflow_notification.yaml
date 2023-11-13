@@ -28,4 +28,3 @@ jobs:
         # Optional blind carbon copy recipients
         # bcc: bcc@example.com
         # Optional content type (defaults to text/plain)
-        content_type: text/html
