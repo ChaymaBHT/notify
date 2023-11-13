@@ -22,7 +22,7 @@ jobs:
         # Use body: field or body_file: can't be both
         body: Build of project was completed successfully!
         to: chayma.bh@tempest.com
-        from: sentry@tempest.com
+        from: Your Name <${{ secrets.MAIL_USERNAME }}>
         # Optional carbon copy recipients
         # cc: cc@example.com
         # Optional blind carbon copy recipients
