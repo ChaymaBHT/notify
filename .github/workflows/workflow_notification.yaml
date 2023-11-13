@@ -1,6 +1,9 @@
 name: Email Notification Workflow
-on: [workflow_run]
-
+on:
+  workflow_run:
+    workflows: [AWS]
+    types:
+      - completed
 jobs:
   sendMail:
     runs-on: ubuntu-latest
