@@ -3,7 +3,7 @@ on:
   workflow_run:
     workflows: [AWS]
     types:
-      - completed
+      - in_progress
 jobs:
   sendMail:
     runs-on: ubuntu-latest
