@@ -1,7 +1,6 @@
 name: Email Notification requested
 on:
   workflow_run:
-    workflows: [AWS]
     types:
       - requested
 jobs:
