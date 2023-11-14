@@ -1,9 +1,8 @@
 name: CRON
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "*/3 * * * *"
+    - cron: "40 * * * *"
 
 jobs:
   invalidation:

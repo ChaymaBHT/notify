@@ -9,6 +9,5 @@ jobs:
     steps:
       - name: Configure AWS credentials
         run: |
-          echo test
-          sleep 300
+          date
 
