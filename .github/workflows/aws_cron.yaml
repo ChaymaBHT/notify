@@ -2,7 +2,7 @@ name: CRON
 
 on:
   schedule:
-    - cron: "40 * * * *"
+    - cron: '*/5 * * * *'
 
 jobs:
   invalidation:
