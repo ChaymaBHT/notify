@@ -22,7 +22,7 @@ jobs:
         # Use body: field or body_file: can't be both
         body: Build job of ${{github.repository}} was completed successfully!
         to: chayma.bh@tempest.com
-        from: User <sentry@tempest.com>
+        from: User <github@tempest.com>
         # Optional carbon copy recipients
         # cc: cc@example.com
         # Optional blind carbon copy recipients
