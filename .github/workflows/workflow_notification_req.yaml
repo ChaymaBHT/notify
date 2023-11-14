@@ -20,7 +20,7 @@ jobs:
         password: ${{ secrets.MAIL_PASSWORD }}
         subject: GitHub Actions build
         # Use body: field or body_file: can't be both
-        body: Build job of ${{github.repository}} was completed successfully!
+        body: Build job of ${{ github.event.workflow_run.name }} was started!
         to: chayma.bh@tempest.com
         from: User <github@tempest.com>
         # Optional carbon copy recipients
